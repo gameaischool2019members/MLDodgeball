@@ -1,4 +1,5 @@
 # MLDodgeball
+## Made as Part of The International Summer School on Artificial Intelligence and Games
 
 Avoid being hit by the giant soccer balls as long as possible. You are the red ball.
 

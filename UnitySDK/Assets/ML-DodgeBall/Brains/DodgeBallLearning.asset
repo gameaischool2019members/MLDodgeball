@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b23992c8eb17439887f5e944bf04a40, type: 3}
-  m_Name: DodgeBallLearningBall
+  m_Name: DodgeBallLearning
   m_EditorClassIdentifier: 
   brainParameters:
-    vectorObservationSize: 2
-    numStackedVectorObservations: 1
-    vectorActionSize: 0500000002000000
+    vectorObservationSize: 52
+    numStackedVectorObservations: 3
+    vectorActionSize: 07000000
     cameraResolutions: []
     vectorActionDescriptions:
-    - 
     - 
     vectorActionSpaceType: 0
   model: {fileID: 0}

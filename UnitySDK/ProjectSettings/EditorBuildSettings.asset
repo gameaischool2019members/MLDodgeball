@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ML-DodgeBall/Scenes/DodgeBall.unity
+    guid: 5fce3a61f6cf3e241aba4ce102862adf
+  m_configObjects: {}

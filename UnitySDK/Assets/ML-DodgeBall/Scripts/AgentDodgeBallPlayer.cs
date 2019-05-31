@@ -149,8 +149,6 @@ public class AgentDodgeBallPlayer : Agent
     {
         AddReward(5f);
 
-        dodgeBall.transform.position = GetRandomSpawnPos();
-
-        Done();
+        dodgeBall.rb.AddForce((dodgeBall.transform.position - transform.position).normalized * 5000);
     }
 }

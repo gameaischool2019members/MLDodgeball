@@ -9,6 +9,10 @@ public class Player : MonoBehaviour
     public bool grounded = false;
     private Rigidbody rigidbody;
 
+    public GameObject yellowObject;
+
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +44,11 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("ball"))
         {
             Application.LoadLevel(0);
+        }
+
+        if (collision.gameObject.CompareTag("agent"))
+        {
+            rigidbody.AddForce((transform.position - collision.gameObject.GetComponent<Transform>().transform.position) * 7, ForceMode.Impulse);
         }
     }
 
